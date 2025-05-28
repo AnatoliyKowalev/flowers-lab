@@ -1,0 +1,20 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1206px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.font-rubik {
+  font-family: var(--font-rubik, "Rubik", sans-serif) !important;
+}
+
+.font-lora {
+  font-family: var(--font-lora, "Lora", sans-serif) !important;
+}
