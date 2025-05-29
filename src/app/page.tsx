@@ -5,6 +5,7 @@ import Bestsellers from "@/components/home-page/bestsellers";
 import Features from "@/components/home-page/features";
 import HowItWorks from "@/components/home-page/how-it-works";
 import MainBanner from "@/components/home-page/main-banner";
+import DeliveryDiscount from "@/components/home-page/delivery-discount";
 
 const HomePage: FC = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage: FC = () => {
       <Features />
       <HowItWorks />
       <Bestsellers />
+      <DeliveryDiscount />
     </>
   );
 };

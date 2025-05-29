@@ -1,7 +1,5 @@
 import BuyNowBtn from "@/components/shared/buy-now-btn";
 import Title from "@/components/shared/title";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import React, { FC } from "react";
 
 const MainBanner: FC = () => {

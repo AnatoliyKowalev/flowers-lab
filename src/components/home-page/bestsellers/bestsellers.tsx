@@ -6,7 +6,7 @@ import BuyNowBtn from "@/components/shared/buy-now-btn";
 
 const Bestsellers: FC = () => {
   return (
-    <section className="container py-35 flex flex-col">
+    <section className="container py-25 pb-15 flex flex-col">
       <Title>Наші бестселери</Title>
       <div className="mt-15 grid gap-4 overflow-x-auto sm:grid-cols-4 grid-flow-col auto-cols-[minmax(90%,_1fr)] md:auto-cols-auto md:grid-flow-row md:overflow-x-visible md:grid-cols-12 snap-x snap-mandatory scroll-smooth">
         {BEST_FLOWERS.map(({ name, img, id }, idx) => (

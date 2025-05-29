@@ -1,8 +1,15 @@
 import React, { FC, PropsWithChildren } from "react";
+import { TitleProps } from "./interfaces";
+import { cn } from "@/lib/utils";
 
-const Title: FC<PropsWithChildren> = ({ children }) => {
+const Title: FC<PropsWithChildren<TitleProps>> = ({ className, children }) => {
   return (
-    <div className="text-6xl text-center leading-[4.5rem] font-lora">
+    <div
+      className={cn(
+        "text-6xl text-center leading-[4.5rem] font-lora",
+        className
+      )}
+    >
       {children}
     </div>
   );
