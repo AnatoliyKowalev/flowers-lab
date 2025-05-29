@@ -18,3 +18,18 @@ html {
 .font-lora {
   font-family: var(--font-lora, "Lora", sans-serif) !important;
 }
+
+.line-up {
+  position: relative;
+
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "";
+    width: 2px;
+    height: 12rem;
+    background: var(--foreground);
+  }
+}
