@@ -1,15 +1,16 @@
 import Image from "next/image";
 import React, { FC } from "react";
 import { FEATURES } from "./constants";
+import BlockTitle from "@/components/shared/block-title";
 
 const Features: FC = () => {
   return (
     <div className="container pt-20 pb-40">
       <div className="flex flex-col items-center gap-14 text-center">
-        <h2 className="text-4xl max-w-[80%]">
+        <BlockTitle className="max-w-[80%]">
           Ніжність природи — у кожному букеті. Обираємо з любов’ю, оформлюємо з
           душею.
-        </h2>
+        </BlockTitle>
         <div className="flex items-center gap-20">
           {FEATURES.map(({ icon, text, desc }) => (
             <div key={text} className="flex flex-col items-center gap-3">

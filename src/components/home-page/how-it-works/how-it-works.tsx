@@ -1,3 +1,4 @@
+import BlockTitle from "@/components/shared/block-title";
 import Title from "@/components/shared/title";
 import Image from "next/image";
 import React, { FC } from "react";
@@ -44,7 +45,7 @@ const HowItWorks: FC = () => {
             />
           </div>
           <div className="md:col-span-1 flex flex-col bg-white px-15 py-14 z-2 shadow-xl">
-            <div className="text-4xl">Як ми працюємо</div>
+            <BlockTitle>Як ми працюємо</BlockTitle>
             <div className="text-secondary py-8">
               Даємо клієнтам відчути турботу в кожному кроці — від вибору букета
               до моменту вручення.
