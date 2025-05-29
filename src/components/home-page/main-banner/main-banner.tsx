@@ -1,3 +1,4 @@
+import BuyNowBtn from "@/components/shared/buy-now-btn";
 import Title from "@/components/shared/title";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -13,11 +14,7 @@ const MainBanner: FC = () => {
             Стильні букети з доставкою. Вишукані композиції для будь-якої події
             та настрою.
           </p>
-          <Button size="lg" asChild>
-            <Link href="#" className="w-fit px-[4rem]">
-              Замовити
-            </Link>
-          </Button>
+          <BuyNowBtn className="px-[4rem]" size="lg" />
         </div>
       </div>
     </div>

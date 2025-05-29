@@ -1,9 +1,10 @@
 "use server";
 
+import React, { FC } from "react";
+import Bestsellers from "@/components/home-page/bestsellers";
 import Features from "@/components/home-page/features";
 import HowItWorks from "@/components/home-page/how-it-works";
 import MainBanner from "@/components/home-page/main-banner";
-import React, { FC } from "react";
 
 const HomePage: FC = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage: FC = () => {
       <MainBanner />
       <Features />
       <HowItWorks />
+      <Bestsellers />
     </>
   );
 };

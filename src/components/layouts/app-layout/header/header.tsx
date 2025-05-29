@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import BuyNowBtn from "@/components/shared/buy-now-btn";
 
 const PageHeader: FC = () => {
   return (
@@ -17,11 +18,7 @@ const PageHeader: FC = () => {
             loading="eager"
           />
         </Link>
-        <Button asChild>
-          <Link href="#" className="w-fit px-[2rem]">
-            Замовити
-          </Link>
-        </Button>
+        <BuyNowBtn className="px-[2rem]" />
       </div>
     </div>
   );
