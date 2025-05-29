@@ -33,3 +33,7 @@ html {
     background: var(--foreground);
   }
 }
+
+p {
+  line-height: 1.8rem;
+}

@@ -41,7 +41,7 @@ const Feedbacks: FC = () => {
                   </div>
                   <div className="absolute inset-0 bg-black/60 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 pointer-events-none" />
                   <div className="absolute inset-0 z-20 opacity-0 group-hover:opacity-100 p-6 text-white flex items-center justify-center text-center transition-opacity duration-300 pointer-events-none">
-                    <p className="leading-relaxed max-w-md">{text}</p>
+                    <p className="max-w-md">{text}</p>
                   </div>
                 </div>
               </CarouselItem>
