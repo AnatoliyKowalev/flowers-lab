@@ -9,6 +9,7 @@ import DeliveryDiscount from "@/components/home-page/delivery-discount";
 import Feedbacks from "@/components/home-page/feedbacks";
 import AboutCompany from "@/components/home-page/about-company";
 import ContactUs from "@/components/home-page/contact-us";
+import FollowOnInstagram from "@/components/home-page/follow-on-instagram/follow-on-instagram";
 
 const HomePage: FC = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage: FC = () => {
       <Feedbacks />
       <AboutCompany />
       <ContactUs />
+      <FollowOnInstagram />
     </>
   );
 };

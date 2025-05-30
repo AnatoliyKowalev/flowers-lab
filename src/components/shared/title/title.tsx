@@ -6,7 +6,7 @@ const Title: FC<PropsWithChildren<TitleProps>> = ({ className, children }) => {
   return (
     <div
       className={cn(
-        "text-6xl text-center leading-[4.5rem] font-lora",
+        "text-5xl text-center leading-[4.5rem] font-lora",
         className
       )}
     >
