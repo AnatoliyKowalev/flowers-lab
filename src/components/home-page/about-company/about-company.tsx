@@ -4,7 +4,7 @@ import React, { FC } from "react";
 
 const AboutCompany: FC = () => {
   return (
-    <section className="pt-20 pb-40 bg-[#F5F1ED]">
+    <section className="pt-20 pb-50 bg-[#F5F1ED]">
       <div className="container flex flex-col gap-23">
         <div className="h-[554px] relative flex items-center">
           <Image
