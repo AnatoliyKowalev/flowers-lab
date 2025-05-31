@@ -21,7 +21,7 @@ const Feedbacks: FC = () => {
           <CarouselContent>
             {FEEDBACKS.map(({ img, customerName, text }, index) => (
               <CarouselItem
-                className="pl-6 basis-1/3 amax-w-[320px]"
+                className="pl-6 lg:basis-1/3 lg:amax-w-[320px]"
                 key={index}
               >
                 <div className="relative group overflow-hidden">

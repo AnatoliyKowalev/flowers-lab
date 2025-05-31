@@ -7,11 +7,11 @@ const Features: FC = () => {
   return (
     <div className="container pt-20 pb-40">
       <div className="flex flex-col items-center gap-14 text-center">
-        <BlockTitle className="max-w-[80%]">
+        <BlockTitle className="lg:max-w-[80%]">
           Ніжність природи — у кожному букеті. Обираємо з любов’ю, оформлюємо з
           душею.
         </BlockTitle>
-        <div className="flex items-center gap-20">
+        <div className="grid lg:flex lg:items-center gap-20">
           {FEATURES.map(({ icon, text, desc }) => (
             <div key={text} className="flex flex-col items-center gap-3">
               <Image src={icon} width={84} height={84} alt={text} />

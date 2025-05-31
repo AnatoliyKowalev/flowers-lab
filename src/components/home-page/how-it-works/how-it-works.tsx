@@ -5,9 +5,9 @@ import React, { FC } from "react";
 
 const HowItWorks: FC = () => {
   return (
-    <section className="bg-[#e1eaf4] py-35 line-up">
+    <section className="bg-[#e1eaf4] pt-35 pb-10 lg:py-35 line-up">
       <div className="container">
-        <div className="flex flex-col gap-6 max-w-[75%] mx-auto text-center">
+        <div className="flex flex-col gap-6 lg:max-w-[75%] mx-auto text-center">
           <Title>
             Від букетів ручної роботи до пишних квіткових композицій
           </Title>
@@ -20,31 +20,31 @@ const HowItWorks: FC = () => {
             хороший настрій — наші букети зроблять кожну мить особливою.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 mt-30 relative">
-          <div className="md:col-span-1 z-1">
+        <div className="grid lg:grid-cols-2 lg:mt-30 relative">
+          <div className="h-[50vh] relative lg:static lg:position-[unset] lg:h-fit lg:col-span-1 lg:z-1">
             <Image
               src="/img/how-works-3.webp"
               width={700}
               height={500}
-              className="w-[60%] absolute bottom-[-5rem] left-0 shadow-xl"
+              className="w-[90%] lg:w-[60%] absolute bottom-[1rem] lg:bottom-[-5rem] right-0 lg:right-auto lg:left-0 shadow-xl"
               alt="квіти на столі"
             />
             <Image
               src="/img/how-works-2.webp"
               width={300}
               height={300}
-              className="w-[272px] absolute top-[-4rem] left-[13rem] shadow-xl"
+              className="w-[50%] lg:w-[272px] absolute top-[4rem] lg:top-[-4rem] left-[40%] lg:left-[13rem] shadow-xl"
               alt="магазин"
             />
             <Image
               src="/img/how-works-1.webp"
               width={400}
               height={500}
-              className="w-[310px] absolute bottom-[-2rem] left-[-4rem] shadow-xl"
+              className="w-[50%] lg:w-[310px] absolute bottom-12 lg:bottom-[-2rem] left-0 lg:left-[-4rem] shadow-xl"
               alt="букет квітів"
             />
           </div>
-          <div className="md:col-span-1 flex flex-col bg-white px-15 py-14 z-2 shadow-xl">
+          <div className="lg:col-span-1 flex flex-col bg-white px-4 -mx-4 lg:px-15 py-14 lg:z-2 shadow-xl">
             <BlockTitle>Як ми працюємо</BlockTitle>
             <div className="text-secondary py-8">
               Даємо клієнтам відчути турботу в кожному кроці — від вибору букета

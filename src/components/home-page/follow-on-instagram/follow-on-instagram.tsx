@@ -63,7 +63,7 @@ const FollowOnInstagram: FC = () => {
         </div>
         <Link
           href="https://www.instagram.com/flowerlab_gatne"
-          className="text-secondary text-4xl absolute top-1/2 left-1/2 -translate-x-2/3 -translate-y-1/2"
+          className="text-secondary text-2xl lg:text-4xl absolute -bottom-4 left-8 lg:top-1/2 lg:left-1/2 lg:-translate-x-2/3 lg:-translate-y-1/2 h-fit"
           target="_blank"
           rel="noopener noreferrer"
         >

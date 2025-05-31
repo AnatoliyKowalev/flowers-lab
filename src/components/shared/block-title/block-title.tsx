@@ -6,7 +6,9 @@ const BlockTitle: FC<PropsWithChildren<BlockTitleProps>> = ({
   className,
   children,
 }) => {
-  return <div className={cn("text-4xl", className)}>{children}</div>;
+  return (
+    <div className={cn("text-3xl lg:text-4xl", className)}>{children}</div>
+  );
 };
 
 export default BlockTitle;
