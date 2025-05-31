@@ -9,7 +9,7 @@ const Bestsellers: FC = () => {
     <section className="container py-25 pb-15 flex flex-col">
       <Title>Наші бестселери</Title>
       <div className="mt-15 grid gap-4 overflow-x-auto sm:grid-cols-4 grid-flow-col auto-cols-[minmax(90%,_1fr)] md:auto-cols-auto md:grid-flow-row md:overflow-x-visible md:grid-cols-12 snap-x snap-mandatory scroll-smooth">
-        {BEST_FLOWERS.map(({ name, img, id }, idx) => (
+        {BEST_FLOWERS.map(({ name, img, id }) => (
           <div
             className="snap-start w-full max-w-md flex flex-col gap-2 col-span-1 md:col-span-6 lg:col-span-4 xl:col-span-3 h-fit"
             key={id}

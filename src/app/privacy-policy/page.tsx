@@ -46,12 +46,14 @@ const PrivacyPolicyPage: FC = () => (
         <li>Виправити неточності або видалити ваші дані.</li>
         <li>Відкликати згоду на обробку (у випадках, коли вона потрібна).</li>
       </ul>
-      <h2 className="text-xl font-semibold mt-6 mb-2">5. Зв'язок з нами</h2>
+      <h2 className="text-xl font-semibold mt-6 mb-2">
+        5. Зв&apos;язок з нами
+      </h2>
       <p className="mb-4">
         Якщо у вас виникли питання або ви хочете скористатися своїми правами,
         будь ласка,
         <Link href="tel:+380934388466" className="text-blue-600 underline ml-1">
-          зв’яжіться з нами
+          зв&apos;яжіться з нами
         </Link>
         .
       </p>
