@@ -12,7 +12,7 @@ const PageHeader: FC = () => {
             src="/img/logo.webp"
             width={200}
             height={100}
-            className="w-fit h-[40px]"
+            className="object-contain max-w-[140px]"
             alt="логотип"
             loading="eager"
           />
