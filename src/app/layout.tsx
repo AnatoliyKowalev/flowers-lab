@@ -33,10 +33,7 @@ export default function RootLayout({
   return (
     <html lang="uk" className={`${rubik.variable} ${lora.variable}`}>
       <head>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className="font-rubik text-foreground antialiased light">
         <AppLayout>{children}</AppLayout>
